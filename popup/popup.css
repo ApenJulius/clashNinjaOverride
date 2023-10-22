@@ -1,0 +1,9 @@
+#setting-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px; /* Adjust the gap as needed */
+    text-wrap: nowrap;
+}
+body {
+    width:fit-content;
+}
