@@ -14,7 +14,7 @@ function updateBuildingTypeSelectorStyling(key, values) {
             el.querySelector("a").style.paddingRight = values.number[0]+values.unit[0]
             el.querySelector("a").style.paddingLeft = values.number[0]+values.unit[0]
         } else {
-            el.querySelector("a").style.padding = "12px 11px"
+            el.querySelector("a").style.padding = "12px 12px"
         }
         
         el.style.display = "table-row"

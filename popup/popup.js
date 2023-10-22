@@ -38,10 +38,13 @@ class SettingField {
             number: [document.getElementsByName(this.name.replace("unit-", "number-"))[0].value], 
             unit: [document.getElementsByName(this.name.replace("number-", "unit-"))[0].value] }});
     }
+    getStartValue() {
+
+    }
 }
-new SettingField("Font Size", 100, "px").createSetting()
-new SettingField("Height", 100, "px").createSetting()
-new SettingField("Width", 100, "px").createSetting()
+new SettingField("Font Size", "1", "em").createSetting()
+new SettingField("Height", ".5", "em").createSetting()
+new SettingField("Width", ".5", "em").createSetting()
 
 
 
